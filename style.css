@@ -1,25 +1,17 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
-/* Reset CSS */
+/* Reset de Estilos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Global Styles */
+/* Estilos Globais */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f0f0f0;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px 0;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -30,7 +22,7 @@ header {
 }
 
 header h1 {
-    font-size: 2.5em;
+    margin-bottom: 10px;
 }
 
 nav ul {
@@ -45,25 +37,17 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.2em;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
 }
 
-section.content {
-    padding: 40px 0;
-    text-align: center;
-}
-
-section.content h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-section.content p {
-    color: #666;
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
 }
 
 footer {
@@ -74,8 +58,4 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-}
-.cabecalho{
-    background-color: #333;
-    padding: 30px;;
 }
