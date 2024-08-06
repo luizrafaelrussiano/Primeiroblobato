@@ -30,10 +30,13 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display:flex;
     margin-right: 20px;
 }
-
+#volei{
+    padding: 100px;
+    right: 100%;
+}
 nav ul li a {
     color: #fff;
     text-decoration: none;
